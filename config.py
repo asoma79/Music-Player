@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 que = {}
-SESSION_NAME = getenv("SESSION_NAME", "session")
+SESSION_NAME = getenv("SESSION_NAME", "asom")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 BOT_USERNAME = getenv("BOT_USERNAME", "")
 admins = {}
